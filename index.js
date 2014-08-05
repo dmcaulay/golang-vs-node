@@ -6,12 +6,12 @@ app.engine('.html', require('ejs').__express);
 app.set('views', __dirname);
 app.set('view engine', 'html');
 
-var content = '';
-fs.readdirSync('./slides').forEach(function(file) {
-  content += fs.readFileSync('./slides/' + file)
-});
-
 app.get('/', function(req, res) {
+  var content = '';
+  fs.readdirSync('./slides').forEach(function(file) {
+    content += fs.readFileSync('./slides/' + file)
+  });
+
   res.render('index.html', {content: content});
 });
 
