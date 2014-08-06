@@ -1,6 +1,6 @@
 # Conclusion
 
-Statically typed
+Go: Statically typed
 * Benefits
   * Faster
   * Less memory
@@ -8,13 +8,13 @@ Statically typed
 * Cons
   * More boilerplate
 
-Asynchrous Programming
+Node.js: Asynchrous Programming
 * Benefits
   * Simpler threading model because you're always on the same thread
 * Cons
   * Callback hell, but usually the result of bad programming
 
-Community Maturity
+Node.js: Community Maturity
 * Node.js has npm (central repository)
 * Node.js has a library for almost everything
 * Go is growing fast and some great programmers are joining
