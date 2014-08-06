@@ -15,4 +15,6 @@ app.get('/', function(req, res) {
   res.render('index.html', {content: content});
 });
 
-app.listen(8888);
+app.listen(8888, function() {
+  console.log('open http://localhost:8888');
+});
