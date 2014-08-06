@@ -1,7 +1,7 @@
 # Node.js Async Example
 
 ```js
-// throws an errors
+// throws an error
 var data = fs.readFileSync('/etc/passwd');
 console.log(data);
 
