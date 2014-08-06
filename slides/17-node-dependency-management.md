@@ -1,4 +1,4 @@
-# Node.js Dependency management
+# Node.js Dependency Management
 
 * Has npm
 * All dependencies are stored in the project directory under `node_modules`
